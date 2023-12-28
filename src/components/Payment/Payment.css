@@ -1,0 +1,34 @@
+.message {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 0px;
+    font-size: 60px;
+    background: yellow;
+  }
+  .message2 {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    /* Reduce margin-top to 50px */
+    margin-top: 50px;
+    font-size: 30px;
+}
+
+  .image {
+    height: 500px;
+    width: 650px;
+    margin-left: 380px;
+    background-size: cover;
+  }
+  .payment {
+    height: 100%;
+    margin-top: 0px;
+    font-family: 'Merriweather', serif;
+  }
+  .button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px; /* Adjust the top margin as needed */
+  }
+  
