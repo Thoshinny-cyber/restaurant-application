@@ -9,6 +9,14 @@ background: url('./../images/food.jpeg');
 background-size: cover;
 }
 
+.cardimagesize
+{ width:100%;
+/* Set the desired width for the images */
+ 
+height: 200px;
+object-fit:cover;
+/* Maintain the aspect ratio of the images */
+}
 .card{
 
     width: 18rem;

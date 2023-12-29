@@ -4,6 +4,7 @@ import Navbar2 from '../Navbar/Navbar2';
 import Button from 'react-bootstrap/Button';
 import './Menu.css'
 import Badge from 'react-bootstrap/Badge';
+// import Image from "./../../components/images/foodie.jpeg";
 
 const Menu = () => {
   const [data, setData] = useState([])
@@ -62,7 +63,7 @@ const Menu = () => {
 
         {data.map((f) => {
           return <Card className='card'>
-            <Card.Img variant="top" src={`data:image/*;base64,${f.food_image}`} />
+            <Card.Img className='cardimagesize' variant="top" src={`https://drive.google.com/uc?id=${f.food_image}`} />
             <Badge bg="secondary">Huge Discounts</Badge>
             <Card.Body>
               <Card.Title>{f.food_name}</Card.Title>
